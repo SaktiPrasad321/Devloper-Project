@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --primary-color: #22c55e;
+    --off-yellow:#fde047;
+    --light-gray:#bbf7d0;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--off-yellow);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.nav-brand{
+    margin-top: 18px;
+}
+.nav-brand a{
+    text-decoration: none;
+    /* color: inherit; */
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: orem 0.5rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+    margin: 0.6rem 1rem;
+}
+/*.........Header ......*/
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.hero .hero-img{
+    max-width: 80%;
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    text-align: center;
+    padding: center;
+    padding-top: 1rem;
+    color:var(--primary-color);
+}
+.hero .hero-heading .heading-inverted{
+    color:var(--off-yellow);
+}
+/*........... section.......... */
+.grey{
+    background-color: var(--light-gray);
+}
+.section{
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.link{
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 17.8px;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    color: var(--off-yellow);
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+.project{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #bbf7d0;
+}
+.navigation .nav-brand .dev-a{
+    font-size: 25px;
+}
+.navigation .list-non-bullet .list-item-inline .link{
+    font-size: 22px;
+}

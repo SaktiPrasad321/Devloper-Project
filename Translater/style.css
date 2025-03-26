@@ -1,0 +1,22 @@
+textarea{
+    display: block;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+button{
+    padding: 6px;
+    font-size: large;
+}
+button.hover{
+    background-color: aquamarine;
+}
+#output{
+    border: solid black;
+    display: block;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
